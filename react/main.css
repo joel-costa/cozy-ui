@@ -23420,7 +23420,7 @@ body {
   background-color: var(--neutralBackground);
 }
 .Infos--2ZZVs.Infos--danger--3wKYc {
-  background-color: var(--errorLightBackground);
+  background-color: var(--errorBackgroundLight);
 }
 .Infos-description--7P1NP {
   max-width: 32rem;
