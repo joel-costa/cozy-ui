@@ -3224,6 +3224,7 @@ body {
 }
 .u-elevation-1--3BDa_ {
   box-shadow: 0 4px 12px 0 rgba(0,0,0,0.08);
+  border: 1px solid rgba(0,0,0,0.08);
 }
 .u-flex {
   display: flex;
@@ -14029,6 +14030,7 @@ body {
 
 .DateMonthPicker__YearControls--1DGlB {
   box-shadow: 0 4px 12px 0 rgba(0,0,0,0.08);
+  border: 1px solid rgba(0,0,0,0.08);
 }
 .DateMonthPicker__YearButton--3zNDK:hover,
 .DateMonthPicker__MonthButton--3I_Mm:hover,
