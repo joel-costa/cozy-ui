@@ -28827,85 +28827,6 @@ body {
   justify-content: flex-start;
 }
 
-.AppTile-icon-wrapper--2jUOK {
-  margin-top: 0.25rem;
-  margin-bottom: 0.25rem;
-  width: 3rem;
-  height: 3rem;
-}
-.AppTile-icon-wrapper--2jUOK .AppTile-icon--G1Gp3 {
-  object-fit: contain;
-  max-width: 100%;
-  width: auto;
-}
-.AppTile-icon--default--10DZQ {
-  height: 100%;
-  padding: 0 0.5em;
-}
-.AppTile-desc--2zmhf {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  margin-top: 0.5rem;
-  text-align: center;
-}
-.AppTile-title--3bd6J,
-.AppTile-developer--3ooFw,
-.AppTile-status--2Ow-m {
-  display: block;
-  margin: 0;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
-}
-.AppTile-title--3bd6J {
-  height: 1.25rem;
-  color: var(--black);
-}
-.AppTile-developer--3ooFw {
-  height: 1rem;
-}
-.AppTile-status--2Ow-m {
-  margin-top: 0.5rem;
-  height: 1rem;
-  color: var(--coolGrey);
-}
-@media (max-width: 48rem) {
-  .AppTile-icon-wrapper--2jUOK {
-    margin-bottom: 0;
-  }
-  .AppTile-icon--G1Gp3 {
-    height: 2.5rem;
-    max-width: 2.5rem;
-    max-height: 2.5rem;
-  }
-  .AppTile-desc--2zmhf {
-    margin-top: 0.125rem;
-    margin-left: 0.5rem;
-    justify-content: center;
-    text-align: left;
-/* 4rem for icon and margins */
-    width: calc(100% - 4rem);
-  }
-  .AppTile-title--3bd6J {
-    height: 1rem;
-    font-weight: normal;
-    font-size: 12px;
-  }
-  .AppTile-title--3bd6J,
-  .AppTile-developer--3ooFw,
-  .AppTile-status--2Ow-m {
-    width: 100%;
-  }
-  .AppTile-developer--3ooFw {
-    display: none;
-  }
-  .AppTile-status--2Ow-m {
-    margin-top: 0.125rem;
-  }
-}
-
 .Tile--2SqRi {
   box-sizing: border-box;
   position: relative;
@@ -28945,6 +28866,85 @@ body {
   .Tile--2SqRi:focus {
     transform: scale(1.01);
   }
+}
+.Tile-icon-wrapper--24AzZ {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+  width: 3rem;
+  height: 3rem;
+}
+.Tile-desc--3lPj6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 0.5rem;
+  text-align: center;
+  max-width: 100%;
+}
+.Tile-title--3gbq-,
+.Tile-developer--2GOfB,
+.Tile-status--33VkE {
+  display: block;
+  margin: 0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 100%;
+}
+.Tile-title--3gbq- {
+  height: 1.25rem;
+  color: var(--black);
+}
+.Tile-developer--2GOfB {
+  height: 1rem;
+}
+.Tile-status--33VkE {
+  margin-top: 0.5rem;
+  height: 1rem;
+  color: var(--coolGrey);
+}
+@media (max-width: 48rem) {
+  .Tile-icon-wrapper--24AzZ {
+    margin-top: 0;
+    margin-bottom: 0;
+    max-width: 2.5rem;
+    max-height: 2.5rem;
+  }
+  .Tile-desc--3lPj6 {
+    margin-top: 0.125rem;
+    margin-left: 0.5rem;
+    justify-content: center;
+    text-align: left;
+/* 4rem for icon and margins */
+    width: calc(100% - 4rem);
+  }
+  .Tile-title--3gbq- {
+    height: 1rem;
+    font-weight: normal;
+    font-size: 0.75rem;
+  }
+  .Tile-title--3gbq-,
+  .Tile-developer--2GOfB,
+  .Tile-status--33VkE {
+    width: 100%;
+  }
+  .Tile-developer--2GOfB {
+    display: none;
+  }
+  .Tile-status--33VkE {
+    margin-top: 0.125rem;
+  }
+}
+
+.AppTile-icon--1f0c0 {
+  object-fit: contain;
+  max-width: 100%;
+  width: auto;
+}
+.AppTile-icon--default--1tjiF {
+  height: 100%;
+  padding: 0 0.5em;
 }
 
 .Token--number--2EzoN {
