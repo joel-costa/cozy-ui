@@ -28908,16 +28908,14 @@ body {
   .Tile-icon-wrapper--24AzZ {
     margin-top: 0;
     margin-bottom: 0;
-    max-width: 2.5rem;
-    max-height: 2.5rem;
+    width: 3rem;
+    height: 2.5rem;
   }
   .Tile-desc--3lPj6 {
-    margin-top: 0.125rem;
+    margin-top: 0;
     margin-left: 0.5rem;
-    justify-content: center;
     text-align: left;
-/* 4rem for icon and margins */
-    width: calc(100% - 4rem);
+    flex-grow: 1;
   }
   .Tile-title--3gbq- {
     height: 1rem;
