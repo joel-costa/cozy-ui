@@ -7,11 +7,11 @@ Displays a List of items, with several metadata
 ### Default usage
 ```
 import MuiCozyTheme from 'cozy-ui/transpiled/react/MuiCozyTheme';
-import List from 'cozy-ui/transpiled/react/MuiCozyTheme/List';
-import ListItem from 'cozy-ui/transpiled/react/MuiCozyTheme/ListItem';
-import ListItemIcon from 'cozy-ui/transpiled/react/MuiCozyTheme/ListItemIcon';
+import List from 'cozy-ui/transpiled/react/List';
+import ListItem from 'cozy-ui/transpiled/react/ListItem';
+import ListItemIcon from 'cozy-ui/transpiled/react/ListItemIcon';
 import ListItemText from 'cozy-ui/transpiled/react/ListItemText';
-import ListItemSecondaryAction from 'cozy-ui/transpiled/react/MuiCozyTheme/ListItemSecondaryAction';
+import ListItemSecondaryAction from 'cozy-ui/transpiled/react/ListItemSecondaryAction';
 import Icon from 'cozy-ui/transpiled/react/Icon';
 import Menu from 'cozy-ui/transpiled/react/MuiCozyTheme/Menus';
 import MenuItem from '@material-ui/core/MenuItem'
@@ -73,11 +73,11 @@ import Button from 'cozy-ui/transpiled/react/Button';
 Reduce the space around a list item
 ```
 import MuiCozyTheme from 'cozy-ui/transpiled/react/MuiCozyTheme';
-import List from 'cozy-ui/transpiled/react/MuiCozyTheme/List';
-import ListItem from 'cozy-ui/transpiled/react/MuiCozyTheme/ListItem';
-import ListItemIcon from 'cozy-ui/transpiled/react/MuiCozyTheme/ListItemIcon';
+import List from 'cozy-ui/transpiled/react/List';
+import ListItem from 'cozy-ui/transpiled/react/ListItem';
+import ListItemIcon from 'cozy-ui/transpiled/react/ListItemIcon';
 import ListItemText from 'cozy-ui/transpiled/react/ListItemText';
-import ListItemSecondaryAction from 'cozy-ui/transpiled/react/MuiCozyTheme/ListItemSecondaryAction';
+import ListItemSecondaryAction from 'cozy-ui/transpiled/react/ListItemSecondaryAction';
 import Icon from 'cozy-ui/transpiled/react/Icon';
 
 <MuiCozyTheme>
@@ -107,9 +107,9 @@ import Icon from 'cozy-ui/transpiled/react/Icon';
 Highlight a selected item from the list
 ```
 import MuiCozyTheme from 'cozy-ui/transpiled/react/MuiCozyTheme';
-import List from 'cozy-ui/transpiled/react/MuiCozyTheme/List';
-import ListItem from 'cozy-ui/transpiled/react/MuiCozyTheme/ListItem';
-import ListItemIcon from 'cozy-ui/transpiled/react/MuiCozyTheme/ListItemIcon';
+import List from 'cozy-ui/transpiled/react/List';
+import ListItem from 'cozy-ui/transpiled/react/ListItem';
+import ListItemIcon from 'cozy-ui/transpiled/react/ListItemIcon';
 import ListItemText from 'cozy-ui/transpiled/react/ListItemText';
 import Icon from 'cozy-ui/transpiled/react/Icon';
 

@@ -5,7 +5,7 @@ not well defined yet.
 
 ```
 import MuiCozyTheme from 'cozy-ui/transpiled/react/MuiCozyTheme';
-import Grid from 'cozy-ui/transpiled/react/MuiCozyTheme/Grid';
+import Grid from 'cozy-ui/transpiled/react/Grid';
 import GridItem from 'cozy-ui/transpiled/react/Labs/GridItem';
 import Card from 'cozy-ui/transpiled/react/Card';
 

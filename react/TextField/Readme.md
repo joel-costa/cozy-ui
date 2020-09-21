@@ -4,7 +4,7 @@ props.
 
 ```
 import MuiCozyTheme from 'cozy-ui/transpiled/react/MuiCozyTheme';
-import TextField from 'cozy-ui/transpiled/react/MuiCozyTheme/TextField';
+import TextField from 'cozy-ui/transpiled/react/TextField';
 
 <MuiCozyTheme>
   <TextField
@@ -46,7 +46,7 @@ import TextField from 'cozy-ui/transpiled/react/MuiCozyTheme/TextField';
 
 ```jsx
 import MuiCozyTheme from 'cozy-ui/transpiled/react/MuiCozyTheme';
-import TextField from 'cozy-ui/transpiled/react/MuiCozyTheme/TextField';
+import TextField from 'cozy-ui/transpiled/react/TextField';
 
 <MuiCozyTheme variant="inverted">
   <div style={{ backgroundColor: 'var(--primaryColor)', padding: '2rem' }}>

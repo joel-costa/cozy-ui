@@ -3,12 +3,12 @@ Used to present a binary choice to the user.
 Uses [Material UI's Switch](https://material-ui.com/components/switches/).
 
 ```
-import MuiCozyTheme from '..'
-import CozyTheme from '../../CozyTheme'
+import MuiCozyTheme from '../MuiCozyTheme'
+import CozyTheme from '../CozyTheme'
 import Button from '@material-ui/core/Button'
-import { Title, Text } from '../../Text'
-import Stack from '../../Stack'
-import { Media, Img } from '../../Media'
+import { Title, Text } from '../Text'
+import Stack from '../Stack'
+import { Media, Img } from '../Media'
 import Switch from '.'
 
 initialState = {

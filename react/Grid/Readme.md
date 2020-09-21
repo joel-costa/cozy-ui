@@ -6,7 +6,7 @@ Displays a Grid of items
 
 ```
 import MuiCozyTheme from 'cozy-ui/transpiled/react/MuiCozyTheme';
-import Grid from 'cozy-ui/transpiled/react/MuiCozyTheme/Grid';
+import Grid from 'cozy-ui/transpiled/react/Grid';
 import Card from 'cozy-ui/transpiled/react/Card';
 
 <MuiCozyTheme>
@@ -41,7 +41,7 @@ import Card from 'cozy-ui/transpiled/react/Card';
 ```
 import MuiCozyTheme from '..';
 import Grid from '.';
-import Card from '../../Card';
+import Card from '../Card';
 
 <MuiCozyTheme>
     <Grid container spacing={8}>

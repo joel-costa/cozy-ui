@@ -6,6 +6,14 @@ const transformOldImports = (file, api) => {
 
   transformImports(j, root, {
     imports: {
+      Buttons: {
+        importPath: 'cozy-ui/transpiled/react/Buttons',
+        defaultImport: true
+      },
+      RaisedList: {
+        importPath: 'cozy-ui/transpiled/react/RaisedList',
+        defaultImport: true
+      },
       Dialog: {
         importPath: 'cozy-ui/transpiled/react/Dialog',
         defaultImport: true
@@ -74,6 +82,10 @@ const transformOldImports = (file, api) => {
         importPath: 'cozy-ui/transpiled/react/ListSubheader',
         defaultImport: true
       },
+      Menu: {
+        importPath: 'cozy-ui/transpiled/react/Menus',
+        defaultImport: true
+      }
       Switch: {
         importPath: 'cozy-ui/transpiled/react/Switch',
         defaultImport: true

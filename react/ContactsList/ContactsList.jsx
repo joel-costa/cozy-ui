@@ -4,7 +4,7 @@ import cx from 'classnames'
 
 import { sortContacts, categorizeContacts, sortHeaders } from './helpers'
 import ContactRow from './ContactRow'
-import ListSubheader from '../MuiCozyTheme/ListSubheader'
+import ListSubheader from '../ListSubheader'
 import styles from './styles.styl'
 
 const ContactsList = props => {

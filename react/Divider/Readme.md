@@ -2,7 +2,7 @@ A divider can be used when you want to separate the content.
 
 ```
 import Card from 'cozy-ui/transpiled/react/Card'
-import { CardDivider } from 'cozy-ui/transpiled/react/MuiCozyTheme/Divider';
+import { CardDivider } from 'cozy-ui/transpiled/react/Divider';
 import MuiCozyTheme from 'cozy-ui/transpiled/react/MuiCozyTheme';
 
 <MuiCozyTheme>

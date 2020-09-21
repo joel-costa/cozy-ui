@@ -51,14 +51,16 @@ module.exports = {
         '../react/SelectBox/SelectBox.jsx',
         '../react/Stepper/index.jsx',
         '../react/Textarea/index.jsx',
-        '../react/MuiCozyTheme/Switch'
+        '../react/TextField',
+        '../react/Switch'
       ]
     },
     {
       name: 'Layout components',
       components: () => [
         '../react/Circle/index.jsx',
-        '../react/MuiCozyTheme/Divider/index.jsx',
+        '../react/Divider/index.jsx',
+        '../react/Grid',
         '../react/Hero/index.jsx',
         '../react/hooks/useBreakpoints/index.jsx',
         '../react/Layout/Layout.jsx',
@@ -115,6 +117,9 @@ module.exports = {
         '../react/ActionMenu/index.jsx',
         '../react/AppLinker/index.jsx',
         '../react/Breadcrumbs/index.jsx',
+        '../react/ExpansionPanel',
+        '../react/List',
+        '../react/RaisedList',
         '../react/Menu/index.jsx',
         '../react/Tabs/index.jsx',
         '../react/NavigationList/index.jsx'
@@ -142,13 +147,8 @@ module.exports = {
       name: 'Material-UI',
       components: () => [
         '../react/MuiCozyTheme/Buttons',
-        '../react/MuiCozyTheme/ExpansionPanel',
-        '../react/MuiCozyTheme/Grid',
         '../react/MuiCozyTheme/index.jsx',
-        '../react/MuiCozyTheme/List',
-        '../react/MuiCozyTheme/Menus',
-        '../react/MuiCozyTheme/RaisedList',
-        '../react/MuiCozyTheme/TextField'
+        '../react/MuiCozyTheme/Menus'
       ]
     },
     {
