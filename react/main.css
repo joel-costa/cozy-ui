@@ -22427,8 +22427,7 @@ body {
 .BottomDrawer-content--2xiuD {
   z-index: 60;
   position: fixed;
-  bottom: 0.563rem;
-  bottom: env(safe-area-inset-bottom);
+  bottom: 0;
   left: 0;
   right: 0;
   width: 100%;
@@ -27489,6 +27488,8 @@ iframe {
 .c-actionmenu--22Fp1 {
   color: var(--primaryTextColor);
   --iconColor: var(--actionMenuIconColor);
+  padding-bottom: 0.563rem;
+  padding-bottom: env(safe-area-inset-bottom);
 }
 .c-actionmenu--22Fp1 hr {
   margin-top: 0;
