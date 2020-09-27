@@ -10,6 +10,7 @@ import Icon from 'cozy-ui/transpiled/react/Icon';
 import ListItem from 'cozy-ui/transpiled/react/MuiCozyTheme/ListItem'
 import ListItemIcon from 'cozy-ui/transpiled/react/MuiCozyTheme/ListItemIcon'
 import ListItemText from 'cozy-ui/transpiled/react/ListItemText'
+import ListItemNavIcon from 'cozy-ui/transpiled/react/ListItemNavIcon'
 import ListItemSecondaryAction from 'cozy-ui/transpiled/react/MuiCozyTheme/ListItemSecondaryAction'
 import useBreakpoints, { BreakpointsProvider } from 'cozy-ui/transpiled/react/hooks/useBreakpoints';
 import NavigationList, {
@@ -30,12 +31,7 @@ const NavigationListExample = ({ style }) => {
           </ListItemIcon>
           <ListItemText primaryText="General settings (large icon does not change size of icon area)" />
           <ListItemSecondaryAction>
-            <Icon
-              icon="right"
-              width="16"
-              height="16"
-              className="u-mr-1 u-coolGrey"
-            />
+            <ListItemNavIcon />
           </ListItemSecondaryAction>
         </ListItem>
         <ListItem>
@@ -47,12 +43,7 @@ const NavigationListExample = ({ style }) => {
             secondaryText="Notifications and theme"
           />
           <ListItemSecondaryAction>
-            <Icon
-              icon="right"
-              width="16"
-              height="16"
-              className="u-mr-1 u-coolGrey"
-            />
+            <ListItemNavIcon />
           </ListItemSecondaryAction>
         </ListItem>
         <ListItem>
@@ -75,12 +66,7 @@ const NavigationListExample = ({ style }) => {
           </ListItemIcon>
           <ListItemText primaryText="Bank accounts" />
           <ListItemSecondaryAction>
-            <Icon
-              icon="right"
-              width="16"
-              height="16"
-              className="u-mr-1 u-coolGrey"
-            />
+            <ListItemNavIcon />
           </ListItemSecondaryAction>
         </ListItem>
       </NavigationListSection>
