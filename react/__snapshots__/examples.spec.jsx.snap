@@ -5419,28 +5419,22 @@ exports[`Labs/CollectionField should render examples: Labs/CollectionField 2`] =
 
 exports[`ListItemText should render examples: ListItemText 1`] = `
 "<div>
-  <div class=\\"styles__c-list-text___3kc3E\\">
-    <div class=\\"u-ellipsis u-text\\">I'm a list item text</div>
-  </div>
+  <div class=\\"MuiListItemText-root-84 ListItemText-root-83\\"><span class=\\"MuiTypography-root-90 u-ellipsis MuiTypography-subheading-97 MuiListItemText-primary-87\\">I'm a list item text</span></div>
 </div>"
 `;
 
 exports[`ListItemText should render examples: ListItemText 2`] = `
 "<div>
-  <div class=\\"styles__c-list-text___3kc3E\\">
-    <div class=\\"u-ellipsis u-text\\">I'm a primary text</div>
-    <div class=\\"u-ellipsis u-caption\\">I'm a secondary text</div>
+  <div class=\\"MuiListItemText-root-84 ListItemText-root-83\\"><span class=\\"MuiTypography-root-90 u-ellipsis MuiTypography-subheading-97 MuiListItemText-primary-87\\">I'm a primary text</span>
+    <p class=\\"MuiTypography-root-90 u-ellipsis MuiTypography-body1-99 MuiTypography-colorTextSecondary-123 MuiListItemText-secondary-88\\">I'm a secondary text</p>
   </div>
 </div>"
 `;
 
 exports[`ListItemText should render examples: ListItemText 3`] = `
 "<div>
-  <div class=\\"styles__c-list-text___3kc3E\\">
-    <div class=\\"u-text\\">I'm a primary text</div><a class=\\"u-caption\\" href=\\"http://cozy.io\\">
-      <div class=\\"u-midellipsis\\"><span>Augusta Ada King-Noel, Countess of Lovelace (née Byron; 10 December 1815 – 27 November 1852) was an English mathematician and writer, chiefly known for her work on Charles Babbage's proposed mechanical general-purpose computer, the Analytical Engine. She was the first to recognis</span><span>e that the machine had applications beyond pure calculation, and published the first algorithm intended to be carried out by such a machine. As a result, she is often regarded as the first to recognise the full potential of a \\"computing machine\\" and the first computer programmer.</span></div>
-    </a>
-  </div>
+  <div class=\\"MuiListItemText-root-84 ListItemText-root-83\\"><span class=\\"MuiTypography-root-90 u-ellipsis MuiTypography-subheading-97 MuiListItemText-primary-87\\"><div class=\\"u-text\\">I'm a primary text</div><a class=\\"u-caption\\" href=\\"http://cozy.io\\"><div class=\\"u-midellipsis\\"><span>Augusta Ada King-Noel, Countess of Lovelace (née Byron; 10 December 1815 – 27 November 1852) was an English mathematician and writer, chiefly known for her work on Charles Babbage's proposed mechanical general-purpose computer, the Analytical Engine. She was the first to recognis</span><span>e that the machine had applications beyond pure calculation, and published the first algorithm intended to be carried out by such a machine. As a result, she is often regarded as the first to recognise the full potential of a \\"computing machine\\" and the first computer programmer.</span></div></a></span>
+</div>
 </div>"
 `;
 
@@ -5539,19 +5533,19 @@ exports[`MuiCozyTheme/Switch should render examples: MuiCozyTheme/Switch 1`] = `
         <div class=\\"styles__img___3SHpG\\">
           <div class=\\"u-text\\">Primary</div>
         </div>
-        <div class=\\"styles__img___3SHpG\\"><span class=\\"MuiSwitch-root-83\\"><span class=\\"MuiButtonBase-root-102 MuiIconButton-root-96 MuiPrivateSwitchBase-root-92 MuiSwitch-switchBase-86 MuiSwitch-colorPrimary-88 MuiPrivateSwitchBase-checked-93 MuiSwitch-checked-87\\"><span class=\\"MuiIconButton-label-101\\"><span class=\\"MuiSwitch-icon-84 MuiSwitch-iconChecked-85\\"></span><input class=\\"MuiPrivateSwitchBase-input-95\\" type=\\"checkbox\\" value=\\"\\" checked=\\"\\"></span><span class=\\"MuiTouchRipple-root-127\\"></span></span><span class=\\"MuiSwitch-bar-91\\"></span></span></div>
+        <div class=\\"styles__img___3SHpG\\"><span class=\\"MuiSwitch-root-126\\"><span class=\\"MuiButtonBase-root-145 MuiIconButton-root-139 MuiPrivateSwitchBase-root-135 MuiSwitch-switchBase-129 MuiSwitch-colorPrimary-131 MuiPrivateSwitchBase-checked-136 MuiSwitch-checked-130\\"><span class=\\"MuiIconButton-label-144\\"><span class=\\"MuiSwitch-icon-127 MuiSwitch-iconChecked-128\\"></span><input class=\\"MuiPrivateSwitchBase-input-138\\" type=\\"checkbox\\" value=\\"\\" checked=\\"\\"></span><span class=\\"MuiTouchRipple-root-170\\"></span></span><span class=\\"MuiSwitch-bar-134\\"></span></span></div>
       </div>
       <div class=\\"styles__media___cSJMp\\">
         <div class=\\"styles__img___3SHpG\\">
           <div class=\\"u-text\\">Secondary</div>
         </div>
-        <div class=\\"styles__img___3SHpG\\"><span class=\\"MuiSwitch-root-83\\"><span class=\\"MuiButtonBase-root-102 MuiIconButton-root-96 MuiPrivateSwitchBase-root-92 MuiSwitch-switchBase-86 MuiSwitch-colorSecondary-89 MuiPrivateSwitchBase-checked-93 MuiSwitch-checked-87\\"><span class=\\"MuiIconButton-label-101\\"><span class=\\"MuiSwitch-icon-84 MuiSwitch-iconChecked-85\\"></span><input class=\\"MuiPrivateSwitchBase-input-95\\" type=\\"checkbox\\" value=\\"\\" checked=\\"\\"></span><span class=\\"MuiTouchRipple-root-127\\"></span></span><span class=\\"MuiSwitch-bar-91\\"></span></span></div>
+        <div class=\\"styles__img___3SHpG\\"><span class=\\"MuiSwitch-root-126\\"><span class=\\"MuiButtonBase-root-145 MuiIconButton-root-139 MuiPrivateSwitchBase-root-135 MuiSwitch-switchBase-129 MuiSwitch-colorSecondary-132 MuiPrivateSwitchBase-checked-136 MuiSwitch-checked-130\\"><span class=\\"MuiIconButton-label-144\\"><span class=\\"MuiSwitch-icon-127 MuiSwitch-iconChecked-128\\"></span><input class=\\"MuiPrivateSwitchBase-input-138\\" type=\\"checkbox\\" value=\\"\\" checked=\\"\\"></span><span class=\\"MuiTouchRipple-root-170\\"></span></span><span class=\\"MuiSwitch-bar-134\\"></span></span></div>
       </div>
       <div class=\\"styles__media___cSJMp\\">
         <div class=\\"styles__img___3SHpG\\">
           <div class=\\"u-text\\">Disabled</div>
         </div>
-        <div class=\\"styles__img___3SHpG\\"><span class=\\"MuiSwitch-root-83\\"><span class=\\"MuiButtonBase-root-102 MuiButtonBase-disabled-103 MuiIconButton-root-96 MuiIconButton-disabled-100 MuiPrivateSwitchBase-root-92 MuiSwitch-switchBase-86 MuiSwitch-colorSecondary-89 MuiPrivateSwitchBase-disabled-94 MuiSwitch-disabled-90\\" tabindex=\\"-1\\"><span class=\\"MuiIconButton-label-101\\"><span class=\\"MuiSwitch-icon-84\\"></span><input class=\\"MuiPrivateSwitchBase-input-95\\" disabled=\\"\\" type=\\"checkbox\\" value=\\"\\"></span></span><span class=\\"MuiSwitch-bar-91\\"></span></span></div>
+        <div class=\\"styles__img___3SHpG\\"><span class=\\"MuiSwitch-root-126\\"><span class=\\"MuiButtonBase-root-145 MuiButtonBase-disabled-146 MuiIconButton-root-139 MuiIconButton-disabled-143 MuiPrivateSwitchBase-root-135 MuiSwitch-switchBase-129 MuiSwitch-colorSecondary-132 MuiPrivateSwitchBase-disabled-137 MuiSwitch-disabled-133\\" tabindex=\\"-1\\"><span class=\\"MuiIconButton-label-144\\"><span class=\\"MuiSwitch-icon-127\\"></span><input class=\\"MuiPrivateSwitchBase-input-138\\" disabled=\\"\\" type=\\"checkbox\\" value=\\"\\"></span></span><span class=\\"MuiSwitch-bar-134\\"></span></span></div>
       </div>
     </div>
     <div class=\\"u-title-h2 u-mt-1\\">Inverted theme</div>
@@ -5560,19 +5554,19 @@ exports[`MuiCozyTheme/Switch should render examples: MuiCozyTheme/Switch 1`] = `
         <div class=\\"styles__img___3SHpG\\">
           <div class=\\"u-text\\">Primary</div>
         </div>
-        <div class=\\"styles__img___3SHpG\\"><span class=\\"MuiSwitch-root-105\\"><span class=\\"MuiButtonBase-root-124 MuiIconButton-root-118 MuiPrivateSwitchBase-root-114 MuiSwitch-switchBase-108 MuiSwitch-colorPrimary-110 MuiPrivateSwitchBase-checked-115 MuiSwitch-checked-109\\"><span class=\\"MuiIconButton-label-123\\"><span class=\\"MuiSwitch-icon-106 MuiSwitch-iconChecked-107\\"></span><input class=\\"MuiPrivateSwitchBase-input-117\\" type=\\"checkbox\\" value=\\"\\" checked=\\"\\"></span><span class=\\"MuiTouchRipple-root-134\\"></span></span><span class=\\"MuiSwitch-bar-113\\"></span></span></div>
+        <div class=\\"styles__img___3SHpG\\"><span class=\\"MuiSwitch-root-148\\"><span class=\\"MuiButtonBase-root-167 MuiIconButton-root-161 MuiPrivateSwitchBase-root-157 MuiSwitch-switchBase-151 MuiSwitch-colorPrimary-153 MuiPrivateSwitchBase-checked-158 MuiSwitch-checked-152\\"><span class=\\"MuiIconButton-label-166\\"><span class=\\"MuiSwitch-icon-149 MuiSwitch-iconChecked-150\\"></span><input class=\\"MuiPrivateSwitchBase-input-160\\" type=\\"checkbox\\" value=\\"\\" checked=\\"\\"></span><span class=\\"MuiTouchRipple-root-177\\"></span></span><span class=\\"MuiSwitch-bar-156\\"></span></span></div>
       </div>
       <div class=\\"styles__media___cSJMp\\">
         <div class=\\"styles__img___3SHpG\\">
           <div class=\\"u-text\\">Secondary</div>
         </div>
-        <div class=\\"styles__img___3SHpG\\"><span class=\\"MuiSwitch-root-105\\"><span class=\\"MuiButtonBase-root-124 MuiIconButton-root-118 MuiPrivateSwitchBase-root-114 MuiSwitch-switchBase-108 MuiSwitch-colorSecondary-111 MuiPrivateSwitchBase-checked-115 MuiSwitch-checked-109\\"><span class=\\"MuiIconButton-label-123\\"><span class=\\"MuiSwitch-icon-106 MuiSwitch-iconChecked-107\\"></span><input class=\\"MuiPrivateSwitchBase-input-117\\" type=\\"checkbox\\" value=\\"\\" checked=\\"\\"></span><span class=\\"MuiTouchRipple-root-134\\"></span></span><span class=\\"MuiSwitch-bar-113\\"></span></span></div>
+        <div class=\\"styles__img___3SHpG\\"><span class=\\"MuiSwitch-root-148\\"><span class=\\"MuiButtonBase-root-167 MuiIconButton-root-161 MuiPrivateSwitchBase-root-157 MuiSwitch-switchBase-151 MuiSwitch-colorSecondary-154 MuiPrivateSwitchBase-checked-158 MuiSwitch-checked-152\\"><span class=\\"MuiIconButton-label-166\\"><span class=\\"MuiSwitch-icon-149 MuiSwitch-iconChecked-150\\"></span><input class=\\"MuiPrivateSwitchBase-input-160\\" type=\\"checkbox\\" value=\\"\\" checked=\\"\\"></span><span class=\\"MuiTouchRipple-root-177\\"></span></span><span class=\\"MuiSwitch-bar-156\\"></span></span></div>
       </div>
       <div class=\\"styles__media___cSJMp\\">
         <div class=\\"styles__img___3SHpG\\">
           <div class=\\"u-text\\">Disabled</div>
         </div>
-        <div class=\\"styles__img___3SHpG\\"><span class=\\"MuiSwitch-root-105\\"><span class=\\"MuiButtonBase-root-124 MuiButtonBase-disabled-125 MuiIconButton-root-118 MuiIconButton-disabled-122 MuiPrivateSwitchBase-root-114 MuiSwitch-switchBase-108 MuiSwitch-colorSecondary-111 MuiPrivateSwitchBase-disabled-116 MuiSwitch-disabled-112\\" tabindex=\\"-1\\"><span class=\\"MuiIconButton-label-123\\"><span class=\\"MuiSwitch-icon-106\\"></span><input class=\\"MuiPrivateSwitchBase-input-117\\" disabled=\\"\\" type=\\"checkbox\\" value=\\"\\"></span></span><span class=\\"MuiSwitch-bar-113\\"></span></span></div>
+        <div class=\\"styles__img___3SHpG\\"><span class=\\"MuiSwitch-root-148\\"><span class=\\"MuiButtonBase-root-167 MuiButtonBase-disabled-168 MuiIconButton-root-161 MuiIconButton-disabled-165 MuiPrivateSwitchBase-root-157 MuiSwitch-switchBase-151 MuiSwitch-colorSecondary-154 MuiPrivateSwitchBase-disabled-159 MuiSwitch-disabled-155\\" tabindex=\\"-1\\"><span class=\\"MuiIconButton-label-166\\"><span class=\\"MuiSwitch-icon-149\\"></span><input class=\\"MuiPrivateSwitchBase-input-160\\" disabled=\\"\\" type=\\"checkbox\\" value=\\"\\"></span></span><span class=\\"MuiSwitch-bar-156\\"></span></span></div>
       </div>
     </div>
   </div>

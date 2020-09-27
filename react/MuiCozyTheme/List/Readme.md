@@ -26,7 +26,7 @@ import Button from 'cozy-ui/transpiled/react/Button';
       <ListItemIcon>
         <Icon icon="folder" width="32" height="32" />
       </ListItemIcon>
-      <ListItemText primaryText="I'm a primary text"/>
+      <ListItemText primaryText="I'm a primary text that is very very very long"/>
       <ListItemText secondaryText="metadata"/>
       <ListItemText secondaryText="metadata"/>
       <ListItemSecondaryAction>
@@ -56,7 +56,7 @@ import Button from 'cozy-ui/transpiled/react/Button';
       <ListItemText primaryText="I'm a primary text" secondaryText="I'm a secondary text"/>
     </ListItem>
     <ListItem>
-      <ListItemText primaryText="I'm a primary text" />
+      <ListItemText primaryText="I'm an ellipsed primary text that is very long and should be cut with three dots" />
       <ListItemSecondaryAction>
         <Button
           label='Click for more !'
