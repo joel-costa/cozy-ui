@@ -1,10 +1,10 @@
 import React from 'react'
 import cx from 'classnames'
-import List from '../MuiCozyTheme/List'
-import Stack from '../Stack'
 import Card from '../Card'
 import { NewSubTitle } from '../Text'
 import useBreakpoints from '../hooks/useBreakpoints'
+import Stack from '../Stack'
+import List from '../MuiCozyTheme/List'
 import ListSubheader from '../MuiCozyTheme/ListSubheader'
 import styles from './styles.styl'
 
