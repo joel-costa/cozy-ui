@@ -11,6 +11,7 @@ const ListItemText = props => {
     className,
     primaryTextClassName,
     secondaryTextClassName,
+    hasSecondaryIcon,
     ellipsis,
     children,
     ...rest
@@ -22,6 +23,7 @@ const ListItemText = props => {
         root: cx(
           primaryTextClassName,
           ellipsis ? 'u-ellipsis' : null,
+          hasSecondaryIcon ? 'u-mr-1-half' : null
         )
       }
     }
@@ -33,6 +35,7 @@ const ListItemText = props => {
         root: cx(
           secondaryTextClassName,
           ellipsis ? 'u-ellipsis' : null,
+          hasSecondaryIcon ? 'u-mr-1-half' : null
         )
       }
     }
