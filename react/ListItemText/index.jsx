@@ -1,4 +1,5 @@
 import React, { useMemo } from 'react'
+import merge from 'lodash/merge'
 import MuiListItemText from '@material-ui/core/ListItemText'
 import { withStyles } from '@material-ui/core/styles'
 import cx from 'classnames'
@@ -7,11 +8,30 @@ import PropTypes from 'prop-types'
 import { Text, Caption } from '../Text'
 import styles from './styles.styl'
 
+const makeTypographyProp = (
+  typographyProps,
+  className,
+  ellipsis,
+  hasSecondaryIcon
+) => {
+  return merge({}, typographyProps, {
+    classes: {
+      root: cx(
+        className,
+        ellipsis ? 'u-ellipsis' : null,
+        hasSecondaryIcon ? 'u-mr-1-half' : null
+      )
+    }
+  })
+}
+
 const ListItemText = props => {
   const {
     primaryText,
     secondaryText,
     className,
+    primaryTypographyProps: primaryTypographyPropsProp,
+    secondaryTypographyProps: secondaryTypographyPropsProp,
     primaryTextClassName,
     secondaryTextClassName,
     hasSecondaryIcon,
@@ -21,28 +41,32 @@ const ListItemText = props => {
   } = props
 
   const primaryTypographyProps = useMemo(() => {
-    return {
-      classes: {
-        root: cx(
-          primaryTextClassName,
-          ellipsis ? 'u-ellipsis' : null,
-          hasSecondaryIcon ? 'u-mr-1-half' : null
-        )
-      }
-    }
-  }, [primaryTextClassName, ellipsis])
+    return makeTypographyProp(
+      primaryTypographyPropsProp,
+      primaryTextClassName,
+      ellipsis,
+      hasSecondaryIcon
+    )
+  }, [
+    primaryTypographyPropsProp,
+    primaryTextClassName,
+    ellipsis,
+    hasSecondaryIcon
+  ])
 
   const secondaryTypographyProps = useMemo(() => {
-    return {
-      classes: {
-        root: cx(
-          secondaryTextClassName,
-          ellipsis ? 'u-ellipsis' : null,
-          hasSecondaryIcon ? 'u-mr-1-half' : null
-        )
-      }
-    }
-  }, [secondaryTextClassName, ellipsis])
+    return makeTypographyProp(
+      secondaryTypographyPropsProp,
+      secondaryTextClassName,
+      ellipsis,
+      hasSecondaryIcon
+    )
+  }, [
+    secondaryTypographyPropsProp,
+    secondaryTextClassName,
+    ellipsis,
+    hasSecondaryIcon
+  ])
 
   return (
     <MuiListItemText
