@@ -10,7 +10,7 @@ Displays a List of items, with several metadata
 
 ```
 import MuiCozyTheme from 'cozy-ui/transpiled/react/MuiCozyTheme';
-import List from 'cozy-ui/transpiled/react/MuiCozyTheme/List';
+import { BorderedList as List } from 'cozy-ui/transpiled/react/MuiCozyTheme/List';
 import ListItem from 'cozy-ui/transpiled/react/MuiCozyTheme/ListItem';
 import ListItemIcon from 'cozy-ui/transpiled/react/MuiCozyTheme/ListItemIcon';
 import ListItemText from 'cozy-ui/transpiled/react/ListItemText';

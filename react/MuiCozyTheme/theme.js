@@ -201,10 +201,6 @@ normalTheme.overrides = {
     }
   },
   MuiList: {
-    root: {
-      borderTop: '1px solid var(--silver)',
-      borderBottom: '1px solid var(--silver)'
-    },
     padding: {
       paddingTop: 0,
       paddingBottom: 0
