@@ -29,7 +29,7 @@ const NavigationListExample = ({ style }) => {
           <ListItemIcon>
             <Icon icon="gear" width="32" height="32" />
           </ListItemIcon>
-          <ListItemText primaryText="General settings (large icon does not change size of icon area)" />
+          <ListItemText hasSecondaryIcon primaryText="General settings (large icon does not change size of icon area)" />
           <ListItemSecondaryAction>
             <ListItemNavIcon />
           </ListItemSecondaryAction>
@@ -39,6 +39,7 @@ const NavigationListExample = ({ style }) => {
             <Icon icon="people" width="16" height="16" />
           </ListItemIcon>
           <ListItemText
+            hasSecondaryIcon
             primaryText="User preferences"
             secondaryText="Notifications and theme"
           />
@@ -51,6 +52,7 @@ const NavigationListExample = ({ style }) => {
             <Icon icon="trash" className="u-error" width="16" height="16" />
           </ListItemIcon>
           <ListItemText
+            hasSecondaryIcon
             primaryText="Delete account"
             primaryTextClassName="u-error"
             secondaryTextClassName="u-error"
