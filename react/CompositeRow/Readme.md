@@ -79,8 +79,9 @@ const initialVariants = [
 ];
 
 <Variants initialVariants={initialVariants}>{
-  variant => (
+  (variant, i) => (
     <CompositeRow
+      key={i}
       primaryText='Primary text'
       secondaryText={variant.secondaryText ? 'Secondary Text' : null}
       image={variant.icon ? <CompositeImage /> : null}

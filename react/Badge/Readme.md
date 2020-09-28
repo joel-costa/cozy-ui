@@ -21,8 +21,8 @@ const initialVariants = [
 
 <MuiCozyTheme>
   <Variants initialVariants={initialVariants}>{
-    variant => (
-      <p>
+    (variant, i) => (
+      <p key={i}>
         <Badge badgeContent={4} color={variant.error ? 'error' : variant.secondaryColor ? 'secondary' : 'primary'} variant={variant.dot ? 'dot' : 'standard'} size={variant.large ? 'large' : variant.small ? 'small' : 'medium'} anchorOrigin={{vertical: variant.bottom ? 'bottom' : 'top', 'horizontal': variant.left ? 'left' : 'right'}}>
           <Icon icon="circle-filled" size={variant.large ? '32' : variant.small ? '16' : '24'} color="var(--slateGrey)" />
         </Badge>

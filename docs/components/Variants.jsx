@@ -59,7 +59,7 @@ const Variants = ({ initialVariants, children }) => {
             variant={variant}
             onChange={variant => onChangeVariant(variant, i)}
           />
-          {children(variant)}
+          {children(variant, i)}
         </React.Fragment>
       ))}
     </>

@@ -14,8 +14,9 @@ const initialVariants = [
 
 <div className='u-stack-m'>
     <Variants initialVariants={initialVariants}>{
-      variant => (
+      (variant, i) => (
         <Infos
+          key={i}
           theme={variant.secondaryTheme ? 'secondary' : variant.dangerTheme ? 'danger' : 'primary'}
           description={<>
             {variant.title && <SubTitle className={variant.dangerTheme ? 'u-pomegranate' : ''}>{content.ada.facts[0].title}</SubTitle>}
