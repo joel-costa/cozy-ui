@@ -1,9 +1,12 @@
 import React from 'react'
 import cx from 'classnames'
 import PropTypes from 'prop-types'
-import { MainTitle, BaseText } from '../Text'
+import { BaseText } from '../Text'
 import Icon, { iconPropType } from '../Icon'
 import styles from './styles.styl'
+import Stack from '../Stack'
+
+import Typography from 'cozy-ui/transpiled/react/Typography'
 
 export const Empty = ({
   icon,
@@ -14,21 +17,33 @@ export const Empty = ({
   ...restProps
 }) => {
   return (
-    <div className={cx(styles['c-empty'], className)} {...restProps}>
+    <Stack
+      className={cx(className, styles.Empty, 'u-ta-center')}
+      {...restProps}
+    >
       <Icon
-        className={styles['c-empty-img']}
+        className={styles.EmptyImage}
         icon={icon}
         width="100%"
         height="100%"
       />
       {title && (
-        <MainTitle tag="h2" className={styles['c-empty-title']}>
+        <Typography
+          tag="h2"
+          className={styles.EmptyTitle}
+          variant="h3"
+          component="h1"
+        >
           {title}
-        </MainTitle>
+        </Typography>
       )}
-      {text && <EmptySubTitle tag="p">{text}</EmptySubTitle>}
-      <div className={styles['c-empty-text']}>{children}</div>
-    </div>
+      {text && (
+        <Typography variant="body1" color="textSecondary" component="p">
+          {text}
+        </Typography>
+      )}
+      <div className={styles.EmptyText}>{children}</div>
+    </Stack>
   )
 }
 
@@ -39,7 +54,4 @@ Empty.propTypes = {
   className: PropTypes.string
 }
 
-export const EmptySubTitle = ({ ...restProps }) => (
-  <BaseText className={styles['c-empty-text']} {...restProps} />
-)
 export default Empty
