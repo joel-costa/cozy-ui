@@ -20573,6 +20573,19 @@ html {
   height: 0.5rem;
 }
 
+.DialogCloseButton--cxKPO {
+  position: absolute;
+  right: 13px;
+  top: 13px;
+  background-color: #fff;
+}
+@media (max-width: 48rem) {
+  .DialogCloseButton--cxKPO {
+    right: 0;
+    top: 0;
+  }
+}
+
 :root {
   --invertedBackgroundColor: var(--primaryColor);
   --invertedContrastTextColor: var(--primaryContrastTextColor);
@@ -26982,19 +26995,6 @@ html,
   }
   .Panel-side--327EK {
     flex-basis: auto;
-  }
-}
-
-.DialogCloseButton--cxKPO {
-  position: absolute;
-  right: 13px;
-  top: 13px;
-  background-color: #fff;
-}
-@media (max-width: 48rem) {
-  .DialogCloseButton--cxKPO {
-    right: 0;
-    top: 0;
   }
 }
 
