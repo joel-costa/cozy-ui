@@ -23001,6 +23001,9 @@ html {
   padding: 0 1rem;
   color: var(--white);
 }
+.SelectionBar--3UOqy button:hover {
+  color: var(--white);
+}
 .SelectionBar--3UOqy .SelectionBar-actionClose--1OhRM {
   position: absolute;
   top: 50%;
