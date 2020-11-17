@@ -18025,6 +18025,19 @@ html,
 @media (max-width: 48rem) {
 }
 
+.DialogCloseButton--cxKPO {
+  position: absolute;
+  right: 13px;
+  top: 13px;
+  background-color: #fff;
+}
+@media (max-width: 48rem) {
+  .DialogCloseButton--cxKPO {
+    right: 0;
+    top: 0;
+  }
+}
+
 @-moz-keyframes spin--ETyou {
   from {
     transform: rotate(0deg);
@@ -20547,19 +20560,6 @@ html {
 .Divider--2dRZM {
   border-bottom: 1px solid var(--silver);
   height: 0.5rem;
-}
-
-.DialogCloseButton--cxKPO {
-  position: absolute;
-  right: 13px;
-  top: 13px;
-  background-color: #fff;
-}
-@media (max-width: 48rem) {
-  .DialogCloseButton--cxKPO {
-    right: 0;
-    top: 0;
-  }
 }
 
 :root {
