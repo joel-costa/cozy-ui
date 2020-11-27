@@ -176,3 +176,64 @@ const toggleDialog = dialog => {
   ))}
 </>
 ```
+
+
+```
+import Variants from 'docs/components/Variants'
+
+import {
+  Dialog,
+  ConfirmDialog,
+  IllustrationDialog,
+  FixedDialog,
+  FixedActionsDialog
+} from  'cozy-ui/transpiled/react/CozyDialogs'
+
+import { useState } from 'react'
+import ReactMarkdown from 'react-markdown'
+import useBreakpoints, { BreakpointsProvider } from 'cozy-ui/transpiled/react/hooks/useBreakpoints'
+
+import MuiCozyTheme from 'cozy-ui/transpiled/react/MuiCozyTheme/'
+import Divider from 'cozy-ui/transpiled/react/MuiCozyTheme/Divider'
+import Button from 'cozy-ui/transpiled/react/Button'
+import Icon from 'cozy-ui/transpiled/react/Icon'
+
+const Warning = ({ button, title, content, cancel, confirm }) => {
+  const { isMobile } = useBreakpoints()
+  const [state, setState] = useState({ opened: false })
+  const toggle = () =>
+    setState((state) => ({ ...state, opened: !state.opened }))
+
+  const Buttons = () => (
+    <>
+      <Button theme="secondary" onClick={toggle} label={cancel} />
+      <Button theme="danger" label={confirm} onClick={() => alert("click")} />
+    </>
+  )
+  return (
+    <>
+      <button className="c-btn" onClick={toggle}>
+        <span>{button} hello</span>
+      </button>
+      <ConfirmDialog
+        open={state.opened}
+        onClose={toggle}
+        title={title}
+        content=<ReactMarkdown source={content} />
+        actions=<Buttons />
+        actionsLayout={isMobile ? "column" : "row"}
+      />
+    </>
+  )
+};
+
+<BreakpointsProvider>
+  <Warning
+    button='toto'
+    title='title'
+    content='content'
+    cancel='cancel'
+    confirm='confirm'
+  />
+</BreakpointsProvider>
+```
