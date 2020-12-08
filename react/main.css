@@ -1654,6 +1654,7 @@ html,
   --primaryTextColor: var(--charcoalGrey);
   --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: var(--white);
+  --secondaryContrastTextColor: var(--white);
   --invertedTabsActiveTextColor: var(--primaryContrastTextColor);
   --invertedTabsInactiveTextColor: var(--primaryContrastTextColor);
   --invertedTabsIndicatorColor: var(--primaryContrastTextColor);
@@ -7460,6 +7461,7 @@ html,
   --primaryTextColor: var(--charcoalGrey);
   --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: var(--white);
+  --secondaryContrastTextColor: var(--white);
   --invertedTabsActiveTextColor: var(--primaryContrastTextColor);
   --invertedTabsInactiveTextColor: var(--primaryContrastTextColor);
   --invertedTabsIndicatorColor: var(--primaryContrastTextColor);
@@ -12223,6 +12225,7 @@ html,
   --primaryTextColor: var(--charcoalGrey);
   --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: var(--white);
+  --secondaryContrastTextColor: var(--white);
   --invertedTabsActiveTextColor: var(--primaryContrastTextColor);
   --invertedTabsInactiveTextColor: var(--primaryContrastTextColor);
   --invertedTabsIndicatorColor: var(--primaryContrastTextColor);
@@ -12490,6 +12493,7 @@ html,
   --primaryTextColor: var(--charcoalGrey);
   --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: var(--white);
+  --secondaryContrastTextColor: var(--white);
   --invertedTabsActiveTextColor: var(--primaryContrastTextColor);
   --invertedTabsInactiveTextColor: var(--primaryContrastTextColor);
   --invertedTabsIndicatorColor: var(--primaryContrastTextColor);
@@ -12767,6 +12771,7 @@ html,
   --primaryTextColor: var(--charcoalGrey);
   --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: var(--white);
+  --secondaryContrastTextColor: var(--white);
   --invertedTabsActiveTextColor: var(--primaryContrastTextColor);
   --invertedTabsInactiveTextColor: var(--primaryContrastTextColor);
   --invertedTabsIndicatorColor: var(--primaryContrastTextColor);
@@ -12965,6 +12970,7 @@ html,
   --primaryTextColor: var(--charcoalGrey);
   --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: var(--white);
+  --secondaryContrastTextColor: var(--white);
   --invertedTabsActiveTextColor: var(--primaryContrastTextColor);
   --invertedTabsInactiveTextColor: var(--primaryContrastTextColor);
   --invertedTabsIndicatorColor: var(--primaryContrastTextColor);
@@ -14067,6 +14073,7 @@ html,
   --primaryTextColor: var(--charcoalGrey);
   --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: var(--white);
+  --secondaryContrastTextColor: var(--white);
   --invertedTabsActiveTextColor: var(--primaryContrastTextColor);
   --invertedTabsInactiveTextColor: var(--primaryContrastTextColor);
   --invertedTabsIndicatorColor: var(--primaryContrastTextColor);
@@ -17239,6 +17246,7 @@ html,
   --primaryTextColor: var(--charcoalGrey);
   --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: var(--white);
+  --secondaryContrastTextColor: var(--white);
   --invertedTabsActiveTextColor: var(--primaryContrastTextColor);
   --invertedTabsInactiveTextColor: var(--primaryContrastTextColor);
   --invertedTabsIndicatorColor: var(--primaryContrastTextColor);
@@ -20829,6 +20837,7 @@ html,
   --primaryTextColor: var(--charcoalGrey);
   --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: var(--white);
+  --secondaryContrastTextColor: var(--white);
   --invertedTabsActiveTextColor: var(--primaryContrastTextColor);
   --invertedTabsInactiveTextColor: var(--primaryContrastTextColor);
   --invertedTabsIndicatorColor: var(--primaryContrastTextColor);
@@ -22000,6 +22009,7 @@ html,
   --primaryTextColor: var(--charcoalGrey);
   --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: var(--white);
+  --secondaryContrastTextColor: var(--white);
   --invertedTabsActiveTextColor: var(--primaryContrastTextColor);
   --invertedTabsInactiveTextColor: var(--primaryContrastTextColor);
   --invertedTabsIndicatorColor: var(--primaryContrastTextColor);
@@ -22381,6 +22391,7 @@ html,
   --primaryTextColor: var(--charcoalGrey);
   --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: var(--white);
+  --secondaryContrastTextColor: var(--white);
   --invertedTabsActiveTextColor: var(--primaryContrastTextColor);
   --invertedTabsInactiveTextColor: var(--primaryContrastTextColor);
   --invertedTabsIndicatorColor: var(--primaryContrastTextColor);
@@ -23307,6 +23318,7 @@ html,
   --primaryTextColor: var(--charcoalGrey);
   --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: var(--white);
+  --secondaryContrastTextColor: var(--white);
   --invertedTabsActiveTextColor: var(--primaryContrastTextColor);
   --invertedTabsInactiveTextColor: var(--primaryContrastTextColor);
   --invertedTabsIndicatorColor: var(--primaryContrastTextColor);
@@ -24649,6 +24661,7 @@ html,
   --primaryTextColor: var(--charcoalGrey);
   --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: var(--white);
+  --secondaryContrastTextColor: var(--white);
   --invertedTabsActiveTextColor: var(--primaryContrastTextColor);
   --invertedTabsInactiveTextColor: var(--primaryContrastTextColor);
   --invertedTabsIndicatorColor: var(--primaryContrastTextColor);
@@ -24855,6 +24868,7 @@ html,
   --primaryTextColor: var(--charcoalGrey);
   --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: var(--white);
+  --secondaryContrastTextColor: var(--white);
   --invertedTabsActiveTextColor: var(--primaryContrastTextColor);
   --invertedTabsInactiveTextColor: var(--primaryContrastTextColor);
   --invertedTabsIndicatorColor: var(--primaryContrastTextColor);
@@ -27237,6 +27251,7 @@ html,
   --primaryTextColor: var(--charcoalGrey);
   --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: var(--white);
+  --secondaryContrastTextColor: var(--white);
   --invertedTabsActiveTextColor: var(--primaryContrastTextColor);
   --invertedTabsInactiveTextColor: var(--primaryContrastTextColor);
   --invertedTabsIndicatorColor: var(--primaryContrastTextColor);
@@ -31886,6 +31901,7 @@ html,
   --primaryTextColor: var(--charcoalGrey);
   --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: var(--white);
+  --secondaryContrastTextColor: var(--white);
   --invertedTabsActiveTextColor: var(--primaryContrastTextColor);
   --invertedTabsInactiveTextColor: var(--primaryContrastTextColor);
   --invertedTabsIndicatorColor: var(--primaryContrastTextColor);
@@ -34735,6 +34751,7 @@ html,
   --primaryTextColor: var(--charcoalGrey);
   --secondaryTextColor: var(--coolGrey);
   --primaryContrastTextColor: var(--white);
+  --secondaryContrastTextColor: var(--white);
   --invertedTabsActiveTextColor: var(--primaryContrastTextColor);
   --invertedTabsInactiveTextColor: var(--primaryContrastTextColor);
   --invertedTabsIndicatorColor: var(--primaryContrastTextColor);
