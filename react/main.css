@@ -951,14 +951,14 @@ body {
   }
 }
 .u-link:link {
-  color: var(--linkColor);
-  text-decoration: none;
+  color: var(--linkColor) !important;
+  text-decoration: var(--linkTextDecoration) !important;
 }
 .u-link:visited,
 .u-link:active,
 .u-link:hover,
 .u-link:focus {
-  color: var(--linkColorActive);
+  color: var(--linkColorActive) !important;
 }
 .u-lh-tiny {
   line-height: 1 !important;
@@ -1657,6 +1657,7 @@ html,
   --secondaryContrastTextColor: #fff;
   --spinnerColor: var(--primaryColor);
   --linkColor: var(--primaryColor);
+  --linkTextDecoration: none;
   --linkColorActive: var(--primaryColorDark);
   --invertedTabsActiveTextColor: var(--primaryContrastTextColor);
   --invertedTabsInactiveTextColor: var(--primaryContrastTextColor);
@@ -6445,6 +6446,7 @@ html,
   --secondaryContrastTextColor: #fff;
   --spinnerColor: var(--primaryColor);
   --linkColor: var(--primaryColor);
+  --linkTextDecoration: none;
   --linkColorActive: var(--primaryColorDark);
   --invertedTabsActiveTextColor: var(--primaryContrastTextColor);
   --invertedTabsInactiveTextColor: var(--primaryContrastTextColor);
@@ -6491,6 +6493,7 @@ html,
   --spinnerColor: var(--invertedContrastTextColor);
   --linkColor: var(--invertedContrastTextColor);
   --linkColorActive: var(--invertedContrastTextColor);
+  --linkTextDecoration: underline;
   --regularButtonPrimaryColor: var(--invertedContrastTextColor);
   --regularButtonSecondaryColor: var(--invertedContrastTextColor);
   --regularButtonActiveColor: rgba(255,255,255,0.88);
@@ -6677,6 +6680,7 @@ html,
   --secondaryContrastTextColor: #fff;
   --spinnerColor: var(--primaryColor);
   --linkColor: var(--primaryColor);
+  --linkTextDecoration: none;
   --linkColorActive: var(--primaryColorDark);
   --invertedTabsActiveTextColor: var(--primaryContrastTextColor);
   --invertedTabsInactiveTextColor: var(--primaryContrastTextColor);
@@ -7161,14 +7165,14 @@ html,
   }
 }
 .u-link:link {
-  color: var(--linkColor);
-  text-decoration: none;
+  color: var(--linkColor) !important;
+  text-decoration: var(--linkTextDecoration) !important;
 }
 .u-link:visited,
 .u-link:active,
 .u-link:hover,
 .u-link:focus {
-  color: var(--linkColorActive);
+  color: var(--linkColorActive) !important;
 }
 .u-lh-tiny {
   line-height: 1 !important;
@@ -8454,14 +8458,14 @@ body {
   }
 }
 .u-link:link {
-  color: var(--linkColor);
-  text-decoration: none;
+  color: var(--linkColor) !important;
+  text-decoration: var(--linkTextDecoration) !important;
 }
 .u-link:visited,
 .u-link:active,
 .u-link:hover,
 .u-link:focus {
-  color: var(--linkColorActive);
+  color: var(--linkColorActive) !important;
 }
 .u-lh-tiny {
   line-height: 1 !important;
@@ -8990,6 +8994,7 @@ html,
   --secondaryContrastTextColor: #fff;
   --spinnerColor: var(--primaryColor);
   --linkColor: var(--primaryColor);
+  --linkTextDecoration: none;
   --linkColorActive: var(--primaryColorDark);
   --invertedTabsActiveTextColor: var(--primaryContrastTextColor);
   --invertedTabsInactiveTextColor: var(--primaryContrastTextColor);
@@ -9473,14 +9478,14 @@ html,
   }
 }
 .u-link:link {
-  color: var(--linkColor);
-  text-decoration: none;
+  color: var(--linkColor) !important;
+  text-decoration: var(--linkTextDecoration) !important;
 }
 .u-link:visited,
 .u-link:active,
 .u-link:hover,
 .u-link:focus {
-  color: var(--linkColorActive);
+  color: var(--linkColorActive) !important;
 }
 .u-lh-tiny {
   line-height: 1 !important;
@@ -12660,6 +12665,7 @@ html,
   --secondaryContrastTextColor: #fff;
   --spinnerColor: var(--primaryColor);
   --linkColor: var(--primaryColor);
+  --linkTextDecoration: none;
   --linkColorActive: var(--primaryColorDark);
   --invertedTabsActiveTextColor: var(--primaryContrastTextColor);
   --invertedTabsInactiveTextColor: var(--primaryContrastTextColor);
@@ -12936,6 +12942,7 @@ html,
   --secondaryContrastTextColor: #fff;
   --spinnerColor: var(--primaryColor);
   --linkColor: var(--primaryColor);
+  --linkTextDecoration: none;
   --linkColorActive: var(--primaryColorDark);
   --invertedTabsActiveTextColor: var(--primaryContrastTextColor);
   --invertedTabsInactiveTextColor: var(--primaryContrastTextColor);
@@ -13204,6 +13211,7 @@ html,
   --secondaryContrastTextColor: #fff;
   --spinnerColor: var(--primaryColor);
   --linkColor: var(--primaryColor);
+  --linkTextDecoration: none;
   --linkColorActive: var(--primaryColorDark);
   --invertedTabsActiveTextColor: var(--primaryContrastTextColor);
   --invertedTabsInactiveTextColor: var(--primaryContrastTextColor);
@@ -13801,14 +13809,14 @@ html,
   }
 }
 .u-link:link {
-  color: var(--linkColor);
-  text-decoration: none;
+  color: var(--linkColor) !important;
+  text-decoration: var(--linkTextDecoration) !important;
 }
 .u-link:visited,
 .u-link:active,
 .u-link:hover,
 .u-link:focus {
-  color: var(--linkColorActive);
+  color: var(--linkColorActive) !important;
 }
 .u-lh-tiny {
   line-height: 1 !important;
@@ -14274,6 +14282,7 @@ html,
   --secondaryContrastTextColor: #fff;
   --spinnerColor: var(--primaryColor);
   --linkColor: var(--primaryColor);
+  --linkTextDecoration: none;
   --linkColorActive: var(--primaryColorDark);
   --invertedTabsActiveTextColor: var(--primaryContrastTextColor);
   --invertedTabsInactiveTextColor: var(--primaryContrastTextColor);
@@ -14875,14 +14884,14 @@ html {
   }
 }
 .u-link:link {
-  color: var(--linkColor);
-  text-decoration: none;
+  color: var(--linkColor) !important;
+  text-decoration: var(--linkTextDecoration) !important;
 }
 .u-link:visited,
 .u-link:active,
 .u-link:hover,
 .u-link:focus {
-  color: var(--linkColorActive);
+  color: var(--linkColorActive) !important;
 }
 .u-lh-tiny {
   line-height: 1 !important;
@@ -15612,14 +15621,14 @@ html {
   }
 }
 .u-link:link {
-  color: var(--linkColor);
-  text-decoration: none;
+  color: var(--linkColor) !important;
+  text-decoration: var(--linkTextDecoration) !important;
 }
 .u-link:visited,
 .u-link:active,
 .u-link:hover,
 .u-link:focus {
-  color: var(--linkColorActive);
+  color: var(--linkColorActive) !important;
 }
 .u-lh-tiny {
   line-height: 1 !important;
@@ -16311,14 +16320,14 @@ html {
   }
 }
 .u-link:link {
-  color: var(--linkColor);
-  text-decoration: none;
+  color: var(--linkColor) !important;
+  text-decoration: var(--linkTextDecoration) !important;
 }
 .u-link:visited,
 .u-link:active,
 .u-link:hover,
 .u-link:focus {
-  color: var(--linkColorActive);
+  color: var(--linkColorActive) !important;
 }
 .u-lh-tiny {
   line-height: 1 !important;
@@ -17052,14 +17061,14 @@ html {
   }
 }
 .u-link:link {
-  color: var(--linkColor);
-  text-decoration: none;
+  color: var(--linkColor) !important;
+  text-decoration: var(--linkTextDecoration) !important;
 }
 .u-link:visited,
 .u-link:active,
 .u-link:hover,
 .u-link:focus {
-  color: var(--linkColorActive);
+  color: var(--linkColorActive) !important;
 }
 .u-lh-tiny {
   line-height: 1 !important;
@@ -17455,6 +17464,7 @@ html,
   --secondaryContrastTextColor: #fff;
   --spinnerColor: var(--primaryColor);
   --linkColor: var(--primaryColor);
+  --linkTextDecoration: none;
   --linkColorActive: var(--primaryColorDark);
   --invertedTabsActiveTextColor: var(--primaryContrastTextColor);
   --invertedTabsInactiveTextColor: var(--primaryContrastTextColor);
@@ -18027,14 +18037,14 @@ html,
   }
 }
 .u-link:link {
-  color: var(--linkColor);
-  text-decoration: none;
+  color: var(--linkColor) !important;
+  text-decoration: var(--linkTextDecoration) !important;
 }
 .u-link:visited,
 .u-link:active,
 .u-link:hover,
 .u-link:focus {
-  color: var(--linkColorActive);
+  color: var(--linkColorActive) !important;
 }
 .u-lh-tiny {
   line-height: 1 !important;
@@ -18788,14 +18798,14 @@ html,
   }
 }
 .u-link:link {
-  color: var(--linkColor);
-  text-decoration: none;
+  color: var(--linkColor) !important;
+  text-decoration: var(--linkTextDecoration) !important;
 }
 .u-link:visited,
 .u-link:active,
 .u-link:hover,
 .u-link:focus {
-  color: var(--linkColorActive);
+  color: var(--linkColorActive) !important;
 }
 .u-lh-tiny {
   line-height: 1 !important;
@@ -19710,14 +19720,14 @@ html {
   }
 }
 .u-link:link {
-  color: var(--linkColor);
-  text-decoration: none;
+  color: var(--linkColor) !important;
+  text-decoration: var(--linkTextDecoration) !important;
 }
 .u-link:visited,
 .u-link:active,
 .u-link:hover,
 .u-link:focus {
-  color: var(--linkColorActive);
+  color: var(--linkColorActive) !important;
 }
 .u-lh-tiny {
   line-height: 1 !important;
@@ -20485,14 +20495,14 @@ html {
   }
 }
 .u-link:link {
-  color: var(--linkColor);
-  text-decoration: none;
+  color: var(--linkColor) !important;
+  text-decoration: var(--linkTextDecoration) !important;
 }
 .u-link:visited,
 .u-link:active,
 .u-link:hover,
 .u-link:focus {
-  color: var(--linkColorActive);
+  color: var(--linkColorActive) !important;
 }
 .u-lh-tiny {
   line-height: 1 !important;
@@ -21473,14 +21483,14 @@ body {
   }
 }
 .u-link:link {
-  color: var(--linkColor);
-  text-decoration: none;
+  color: var(--linkColor) !important;
+  text-decoration: var(--linkTextDecoration) !important;
 }
 .u-link:visited,
 .u-link:active,
 .u-link:hover,
 .u-link:focus {
-  color: var(--linkColorActive);
+  color: var(--linkColorActive) !important;
 }
 .u-lh-tiny {
   line-height: 1 !important;
@@ -22043,6 +22053,7 @@ html,
   --secondaryContrastTextColor: #fff;
   --spinnerColor: var(--primaryColor);
   --linkColor: var(--primaryColor);
+  --linkTextDecoration: none;
   --linkColorActive: var(--primaryColorDark);
   --invertedTabsActiveTextColor: var(--primaryContrastTextColor);
   --invertedTabsInactiveTextColor: var(--primaryContrastTextColor);
@@ -22433,6 +22444,7 @@ html,
   --secondaryContrastTextColor: #fff;
   --spinnerColor: var(--primaryColor);
   --linkColor: var(--primaryColor);
+  --linkTextDecoration: none;
   --linkColorActive: var(--primaryColorDark);
   --invertedTabsActiveTextColor: var(--primaryContrastTextColor);
   --invertedTabsInactiveTextColor: var(--primaryContrastTextColor);
@@ -22916,14 +22928,14 @@ html,
   }
 }
 .u-link:link {
-  color: var(--linkColor);
-  text-decoration: none;
+  color: var(--linkColor) !important;
+  text-decoration: var(--linkTextDecoration) !important;
 }
 .u-link:visited,
 .u-link:active,
 .u-link:hover,
 .u-link:focus {
-  color: var(--linkColorActive);
+  color: var(--linkColorActive) !important;
 }
 .u-lh-tiny {
   line-height: 1 !important;
@@ -23368,6 +23380,7 @@ html,
   --secondaryContrastTextColor: #fff;
   --spinnerColor: var(--primaryColor);
   --linkColor: var(--primaryColor);
+  --linkTextDecoration: none;
   --linkColorActive: var(--primaryColorDark);
   --invertedTabsActiveTextColor: var(--primaryContrastTextColor);
   --invertedTabsInactiveTextColor: var(--primaryContrastTextColor);
@@ -24102,14 +24115,14 @@ body {
   }
 }
 .u-link:link {
-  color: var(--linkColor);
-  text-decoration: none;
+  color: var(--linkColor) !important;
+  text-decoration: var(--linkTextDecoration) !important;
 }
 .u-link:visited,
 .u-link:active,
 .u-link:hover,
 .u-link:focus {
-  color: var(--linkColorActive);
+  color: var(--linkColorActive) !important;
 }
 .u-lh-tiny {
   line-height: 1 !important;
@@ -24689,6 +24702,7 @@ html,
   --secondaryContrastTextColor: #fff;
   --spinnerColor: var(--primaryColor);
   --linkColor: var(--primaryColor);
+  --linkTextDecoration: none;
   --linkColorActive: var(--primaryColorDark);
   --invertedTabsActiveTextColor: var(--primaryContrastTextColor);
   --invertedTabsInactiveTextColor: var(--primaryContrastTextColor);
@@ -24904,6 +24918,7 @@ html,
   --secondaryContrastTextColor: #fff;
   --spinnerColor: var(--primaryColor);
   --linkColor: var(--primaryColor);
+  --linkTextDecoration: none;
   --linkColorActive: var(--primaryColorDark);
   --invertedTabsActiveTextColor: var(--primaryContrastTextColor);
   --invertedTabsInactiveTextColor: var(--primaryContrastTextColor);
@@ -25112,6 +25127,7 @@ html,
   --secondaryContrastTextColor: #fff;
   --spinnerColor: var(--primaryColor);
   --linkColor: var(--primaryColor);
+  --linkTextDecoration: none;
   --linkColorActive: var(--primaryColorDark);
   --invertedTabsActiveTextColor: var(--primaryContrastTextColor);
   --invertedTabsInactiveTextColor: var(--primaryContrastTextColor);
@@ -25610,14 +25626,14 @@ html {
   }
 }
 .u-link:link {
-  color: var(--linkColor);
-  text-decoration: none;
+  color: var(--linkColor) !important;
+  text-decoration: var(--linkTextDecoration) !important;
 }
 .u-link:visited,
 .u-link:active,
 .u-link:hover,
 .u-link:focus {
-  color: var(--linkColorActive);
+  color: var(--linkColorActive) !important;
 }
 .u-lh-tiny {
   line-height: 1 !important;
@@ -26631,14 +26647,14 @@ body {
   }
 }
 .u-link:link {
-  color: var(--linkColor);
-  text-decoration: none;
+  color: var(--linkColor) !important;
+  text-decoration: var(--linkTextDecoration) !important;
 }
 .u-link:visited,
 .u-link:active,
 .u-link:hover,
 .u-link:focus {
-  color: var(--linkColorActive);
+  color: var(--linkColorActive) !important;
 }
 .u-lh-tiny {
   line-height: 1 !important;
@@ -28026,6 +28042,7 @@ html,
   --secondaryContrastTextColor: #fff;
   --spinnerColor: var(--primaryColor);
   --linkColor: var(--primaryColor);
+  --linkTextDecoration: none;
   --linkColorActive: var(--primaryColorDark);
   --invertedTabsActiveTextColor: var(--primaryContrastTextColor);
   --invertedTabsInactiveTextColor: var(--primaryContrastTextColor);
@@ -28516,14 +28533,14 @@ html,
   }
 }
 .u-link:link {
-  color: var(--linkColor);
-  text-decoration: none;
+  color: var(--linkColor) !important;
+  text-decoration: var(--linkTextDecoration) !important;
 }
 .u-link:visited,
 .u-link:active,
 .u-link:hover,
 .u-link:focus {
-  color: var(--linkColorActive);
+  color: var(--linkColorActive) !important;
 }
 .u-lh-tiny {
   line-height: 1 !important;
@@ -29008,6 +29025,7 @@ html,
   --secondaryContrastTextColor: #fff;
   --spinnerColor: var(--primaryColor);
   --linkColor: var(--primaryColor);
+  --linkTextDecoration: none;
   --linkColorActive: var(--primaryColorDark);
   --invertedTabsActiveTextColor: var(--primaryContrastTextColor);
   --invertedTabsInactiveTextColor: var(--primaryContrastTextColor);
@@ -31866,6 +31884,7 @@ html,
   --secondaryContrastTextColor: #fff;
   --spinnerColor: var(--primaryColor);
   --linkColor: var(--primaryColor);
+  --linkTextDecoration: none;
   --linkColorActive: var(--primaryColorDark);
   --invertedTabsActiveTextColor: var(--primaryContrastTextColor);
   --invertedTabsInactiveTextColor: var(--primaryContrastTextColor);
