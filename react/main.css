@@ -29244,6 +29244,7 @@ html {
 @media (max-width: 63.938rem) {
 }
 .viewer-controls--2j5Xl {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -29267,11 +29268,6 @@ html {
   justify-content: center;
   flex-direction: column;
 }
-@media (max-width: 63.938rem) {
-  .viewer-nav--qsl4h {
-    display: none;
-  }
-}
 .viewer-nav--visible--13A7g:hover {
   opacity: 1;
   transition: none;
@@ -29282,6 +29278,7 @@ html {
 .viewer-nav--previous--1gKjk .viewer-nav-arrow--1X0Jq {
   align-self: flex-start;
   margin-left: 2.5rem;
+  transform: rotate(180deg);
 }
 .viewer-nav--next--1aavz {
   right: 0;
@@ -29289,6 +29286,11 @@ html {
 .viewer-nav--next--1aavz .viewer-nav-arrow--1X0Jq {
   align-self: flex-end;
   margin-right: 2.5rem;
+}
+@media (max-width: 63.938rem) {
+  .viewer-nav--qsl4h {
+    display: none;
+  }
 }
 .viewer-controls--2j5Xl._--expanded--1NKeH .viewer-nav--qsl4h {
   margin-top: 0;
@@ -29303,10 +29305,13 @@ html {
   z-index: 71;
   display: flex;
   flex-shrink: 0;
-  width: 100%;
-  height: 5.625rem;
+  width: calc(100% - 2rem);
+  padding: 0 1rem;
+  height: 4rem;
   transition: 0.4s opacity ease-out;
-  background: linear-gradient(to bottom, rgba(50,54,63,0.5), rgba(50,54,63,0.33), rgba(50,54,63,0));
+  background: linear-gradient(to bottom, var(--charcoalGrey), rgba(50,54,63,0));
+  justify-content: flex-start;
+  align-items: center;
 }
 .viewer-toolbar--mobilebrowser--VH9jK {
   background-color: var(--charcoalGrey);
@@ -29319,49 +29324,6 @@ html {
   .viewer-toolbar--27_8W {
     height: 3rem;
   }
-}
-.viewer-toolbar-actions--1hUkK {
-  position: static;
-  z-index: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: auto;
-  background-color: transparent;
-}
-.viewer-toolbar-actions--1hUkK button {
-  color: var(--white);
-}
-.viewer-toolbar-actions--1hUkK button:hover,
-.viewer-toolbar-actions--1hUkK button:focus {
-  color: var(--white);
-}
-.viewer-toolbar-close--1fWtM {
-  position: absolute;
-  top: 0;
-  right: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 5.625rem;
-  height: 5.625rem;
-  cursor: pointer;
-}
-@media (max-width: 63.938rem) {
-  .viewer-toolbar-close--1fWtM {
-    width: 3rem;
-    height: 3rem;
-  }
-}
-.viewer-toolbar-close--1fWtM button {
-  color: var(--white);
-  background-color: transparent;
-  border: 0;
-}
-.viewer-toolbar-close--1fWtM button:hover,
-.viewer-toolbar-close--1fWtM button:focus {
-  background-color: transparent;
 }
 .viewer-wrapper--2GIXH {
   position: absolute;
