@@ -1691,7 +1691,7 @@ html,
   --navTextHoverColor: var(--charcoalGrey);
 }
 .u-card--1wcLU {
-  border: 0.063rem solid var(--silver);
+  border: 0.063rem solid var(--dividerColor);
   border-radius: 0.5rem;
   padding: 1rem;
   text-decoration: none;
@@ -12976,7 +12976,7 @@ html,
   --navTextHoverColor: var(--charcoalGrey);
 }
 .c-card--YgP7B {
-  border: 0.063rem solid var(--silver);
+  border: 0.063rem solid var(--dividerColor);
   border-radius: 0.5rem;
   padding: 1rem;
   text-decoration: none;
