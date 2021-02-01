@@ -100,7 +100,6 @@ const dialogActions = {
   Dialog: <ExampleDialogActions />
 }
 
-
 const dialogs = [
   Dialog,
   ConfirmDialog,
@@ -127,7 +126,7 @@ const toggleDialog = dialog => {
 }
 
 initialState = {
-  modalOpened: false,
+  modalOpened: true,
   modal: Dialog,
   size: 'medium',
   actionsLayout: 'row',
